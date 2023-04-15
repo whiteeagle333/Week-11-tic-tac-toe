@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(#0000ff 20%, transparent 20%),
+    radial-gradient(#ec5050 20%, transparent 20%);
+  background-color: #f2ff00;
+
+  background-position: 0 0, 10px 10px;
+  background-size: 4px 8px;
+
+  /* background-color: #f5f5f5; */
+  font-family: Comic Sans MS;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: rebeccapurple;
+  text-shadow: rgb(255, 0, 111) 4px 0 6px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(227, 60, 60);
+  text-shadow: rgb(18, 3, 3) 4px 0 3px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(#ff0000 20%, transparent 20%),
+    radial-gradient(#0000ff 20%, transparent 20%);
+  background-color: #05394e;
+  background-position: 0 0, 60px 60px;
+  background-size: 20px 10px;
+
+  /* background-color: #fff; */
+  border-radius: 10px;
+  box-shadow: 4px 8px 8px rgb(52, 2, 2);
+  padding: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  text-shadow: rgb(0, 195, 255) 4px 0 1px;
+  border: 2px solid #51ff00;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.cell:hover {
+  background-image: radial-gradient(#ff00d0 20%, transparent 20%),
+    radial-gradient(#00fff7 20%, transparent 20%);
+  background-color: #48ff00;
+  background-position: 0 0, 60px 60px;
+  background-size: 20px 10px;
+  /* background-color: #1aff00; */
+}
+
+button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: rgb(255, 0, 0) 4px 0 3px;
+  background-image: radial-gradient(#5d6202 20%, transparent 20%),
+    radial-gradient(#c505ff 20%, transparent 20%);
+  background-color: #000000;
+  background-position: 0 0, 100px 100px;
+  background-size: 10px 15px;
+  /* background-color: #4d0651; */
+  color: #fbffff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.6s;
+}
+
+button:hover {
+  background-color: #ff009d;
+}
